@@ -1,0 +1,40 @@
+.page-section {
+    padding: 1.1rem 0;
+
+    @mixin atSmall {
+        padding: 3.5rem 0;
+    }
+
+    &--light {
+        color: #333;
+
+        a {
+            color: #333;
+        }
+
+        a:visited {
+            color: #333;
+        }
+
+        a:hover {
+            color: $mainOrange;
+        }
+    }
+
+    &--darkblue {
+        background-color: $mediumBlue;
+        color: #fff;
+
+        a {
+            color: #fff;
+        }
+
+        a:visited {
+            color: #fff;
+        }
+
+        a:hover {
+            color: $mainOrange;
+        }
+    }
+}

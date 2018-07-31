@@ -1,0 +1,19 @@
+.basic-content-container {
+
+    p {
+        line-height: 1.35;
+        margin: 1.8rem 0;
+
+        @mixin atSmall {
+            font-size: 1.125rem;
+        }
+    }
+
+    &--centered-text {
+        text-align: center;
+    }
+
+    &--img-shadow {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
